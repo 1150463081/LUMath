@@ -1,0 +1,14 @@
+E:\GitHubProject\LUMath\LUMath\TestExample\bin\Debug\netcoreapp2.1\TestExample.deps.json
+E:\GitHubProject\LUMath\LUMath\TestExample\bin\Debug\netcoreapp2.1\TestExample.runtimeconfig.json
+E:\GitHubProject\LUMath\LUMath\TestExample\bin\Debug\netcoreapp2.1\TestExample.runtimeconfig.dev.json
+E:\GitHubProject\LUMath\LUMath\TestExample\bin\Debug\netcoreapp2.1\TestExample.dll
+E:\GitHubProject\LUMath\LUMath\TestExample\bin\Debug\netcoreapp2.1\TestExample.pdb
+E:\GitHubProject\LUMath\LUMath\TestExample\bin\Debug\netcoreapp2.1\LUMath.dll
+E:\GitHubProject\LUMath\LUMath\TestExample\bin\Debug\netcoreapp2.1\LUMath.pdb
+E:\GitHubProject\LUMath\LUMath\TestExample\obj\Debug\netcoreapp2.1\TestExample.csprojAssemblyReference.cache
+E:\GitHubProject\LUMath\LUMath\TestExample\obj\Debug\netcoreapp2.1\TestExample.csproj.CoreCompileInputs.cache
+E:\GitHubProject\LUMath\LUMath\TestExample\obj\Debug\netcoreapp2.1\TestExample.AssemblyInfoInputs.cache
+E:\GitHubProject\LUMath\LUMath\TestExample\obj\Debug\netcoreapp2.1\TestExample.AssemblyInfo.cs
+E:\GitHubProject\LUMath\LUMath\TestExample\obj\Debug\netcoreapp2.1\TestExample.csproj.CopyComplete
+E:\GitHubProject\LUMath\LUMath\TestExample\obj\Debug\netcoreapp2.1\TestExample.dll
+E:\GitHubProject\LUMath\LUMath\TestExample\obj\Debug\netcoreapp2.1\TestExample.pdb

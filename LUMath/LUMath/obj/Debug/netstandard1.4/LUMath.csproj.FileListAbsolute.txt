@@ -1,0 +1,9 @@
+E:\GitHubProject\LUMath\LUMath\LUMath\bin\Debug\netstandard1.4\LUMath.deps.json
+E:\GitHubProject\LUMath\LUMath\LUMath\bin\Debug\netstandard1.4\LUMath.dll
+E:\GitHubProject\LUMath\LUMath\LUMath\bin\Debug\netstandard1.4\LUMath.pdb
+E:\GitHubProject\LUMath\LUMath\LUMath\obj\Debug\netstandard1.4\LUMath.csprojAssemblyReference.cache
+E:\GitHubProject\LUMath\LUMath\LUMath\obj\Debug\netstandard1.4\LUMath.csproj.CoreCompileInputs.cache
+E:\GitHubProject\LUMath\LUMath\LUMath\obj\Debug\netstandard1.4\LUMath.AssemblyInfo.cs
+E:\GitHubProject\LUMath\LUMath\LUMath\obj\Debug\netstandard1.4\LUMath.dll
+E:\GitHubProject\LUMath\LUMath\LUMath\obj\Debug\netstandard1.4\LUMath.pdb
+E:\GitHubProject\LUMath\LUMath\LUMath\obj\Debug\netstandard1.4\LUMath.AssemblyInfoInputs.cache
