@@ -10,8 +10,9 @@ namespace LUMath
             get { return scaledValue; }
             set { scaledValue = value; }
         }
-
+        //左移位数
         const int BIT_MOVE_COUNT = 10;
+        //放大倍数
         const int MUTLIPLIER_FACTOR = 1 << BIT_MOVE_COUNT;
 
         #region 构造
@@ -27,10 +28,12 @@ namespace LUMath
         {
             scaledValue = (long)Math.Round(value * MUTLIPLIER_FACTOR);
         }
+        //显式转换
         public static explicit operator LUInt(float f)
         {
             return new LUInt(f);
         }
+        //隐式转换
         public static implicit operator LUInt(int a)
         {
             return new LUInt(a);
@@ -48,7 +51,10 @@ namespace LUMath
         public static LUInt operator *(LUInt a, LUInt b)
         {
             long val = a.scaledValue * b.scaledValue;
-            val >>=BIT_MOVE_COUNT;
+            if (val >= 0)
+                val >>= BIT_MOVE_COUNT;
+            else
+                val = -(-val >> BIT_MOVE_COUNT);
             return new LUInt(val);
         }
         public static LUInt operator /(LUInt a, LUInt b)
@@ -95,7 +101,13 @@ namespace LUMath
         }
         public int RawInt
         {
-            get { return (int)(scaledValue >> MUTLIPLIER_FACTOR); }
+            get
+            {
+                if (scaledValue > 0)
+                    return (int)(scaledValue >> BIT_MOVE_COUNT);
+                else
+                    return -(int)(-scaledValue >> BIT_MOVE_COUNT);
+            }
         }
         public override bool Equals(object obj)
         {
